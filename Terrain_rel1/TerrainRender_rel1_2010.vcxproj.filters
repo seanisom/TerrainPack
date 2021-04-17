@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\AdaptiveModelDX11Render.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BitStream.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockBasedAdaptiveModel.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ConfigFile.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EffectUtil.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ElevationDataSource.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Oscilloscope.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PatchCache.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RQTTriangulation.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerrainPatch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerrainRender.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TriangDataSource.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\SampleComponents\TaskMgrTBB.cpp">
+      <Filter>External\SampleComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\d3dx11dbg.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\d3dxGlobal.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectAPI.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectLoad.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectNonRuntime.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectReflection.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Effects11\EffectRuntime.cpp">
+      <Filter>External\Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Core\DXUT.cpp">
+      <Filter>External\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Core\DXUTDevice11.cpp">
+      <Filter>External\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Core\DXUTDevice9.cpp">
+      <Filter>External\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Core\DXUTmisc.cpp">
+      <Filter>External\DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\DXUTgui.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\DXUTres.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\SDKmesh.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DXUT\Optional\SDKmisc.cpp">
+      <Filter>External\DXUTOpt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AdaptiveModelDX11Render.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BitStream.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlockBasedAdaptiveModel.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ConfigFile.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DynamicQuadTreeNode.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EffectUtil.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ElevationDataSource.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Errors.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\HierarchyArray.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Oscilloscope.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PatchCache.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RQTTriangulation.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stdafx.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TerrainPatch.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TriangDataSource.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SampleComponents\TaskMgrTBB.h">
+      <Filter>External\SampleComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\pchfx.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Inc\d3dx11dbg.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Inc\d3dx11effect.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Inc\d3dxglobal.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Effect.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Binary\EffectBinaryFormat.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\EffectLoad.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Binary\EffectStateBase11.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Binary\EffectStates11.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Effects11\Binary\SOParser.h">
+      <Filter>External\Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Core\DXUTmisc.h">
+      <Filter>External\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Core\DXUT.h">
+      <Filter>External\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Core\DXUTDevice11.h">
+      <Filter>External\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Core\DXUTDevice9.h">
+      <Filter>External\DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\DXUTcamera.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\DXUTgui.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\DXUTres.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\SDKmesh.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DXUT\Optional\SDKmisc.h">
+      <Filter>External\DXUTOpt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TerrainRender_rel1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{adf22ee7-e20e-4720-847d-396bda2e7ddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{de9add3c-f5e0-4412-a73c-9b5c46a96d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{73483c34-86d7-4208-90d7-aa6874b55248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{1bd187fd-6a85-4049-8645-afe4031c262f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\SampleComponents">
+      <UniqueIdentifier>{a01b8414-d824-4f3c-9e27-ef6a37a26e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\Effects11">
+      <UniqueIdentifier>{df66a45f-3891-48b0-8290-d39a5851afe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\DXUT">
+      <UniqueIdentifier>{27a86a7f-5b7f-4980-b0be-0a859c24084a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\DXUTOpt">
+      <UniqueIdentifier>{08365fb1-3298-4c25-990b-9b8e30984ce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fx\Oscilloscope.hlsl">
+      <Filter>Effects</Filter>
+    </None>
+    <None Include="..\Effects11\EffectVariable.inl">
+      <Filter>External\Effects11</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="fx\RenderPatch11.fx">
+      <Filter>Effects</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

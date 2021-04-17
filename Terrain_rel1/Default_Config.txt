@@ -1,0 +1,13 @@
+RawDEMDataFile = media\ProcTerrain2_8k\ProcTerrain2_8k_hm.tif
+NumColumns = 8192
+NumRows = 8192
+EncodedRQTTriangFile = media\ProcTerrain2_8k\ProcTerrain2_8k.rqt
+CameraTrack = media\ProcTerrain2_8k\CameraTrack.raw
+TexturingMode = HeightBased
+ForceRecreateTriang = false
+PatchSize = 128
+ReconstrPrecision = 1
+ElevationSamplingInterval = 10
+ScreenSpaceThreshold = 5
+ScalingFactor = 10
+AsyncModeWorkaround = true
